@@ -10,7 +10,7 @@ function validatePincode(pincode){
 
 try{
     validatePincode("522201");
-    validatePincode("123");
+    validatePincode("A123456");
 }catch(e){
     console.error(e);
 }
