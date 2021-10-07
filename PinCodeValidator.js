@@ -1,16 +1,16 @@
 
-let pinCodeRegex = RegExp("^[0-9]{6}");
+let pinCodeRegex = RegExp("^[0-9]{6}")
 
 function validatePincode(pincode){
     if(pinCodeRegex.test(pincode))
-        console.log("Valid Pincode");
+        console.log("Valid Pincode")
     else
-        throw 'Invalid pincode';
+        throw 'Invalid pincode'
 }
 
 try{
-    validatePincode("522201");
-    validatePincode("A123456");
+    validatePincode("522201")
+    validatePincode("40088B")
 }catch(e){
-    console.error(e);
+    console.error(e)
 }
